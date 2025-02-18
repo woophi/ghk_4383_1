@@ -86,14 +86,14 @@ export const App = () => {
         <img src={hb} alt="hb" width="100%" height={136} style={{ objectFit: 'cover', objectPosition: 'top' }} />
         <div className={appSt.box}>
           <Typography.TitleResponsive
-            style={{ maxWidth: '265px' }}
+            style={{ maxWidth: '250px' }}
             tag="h2"
             view="xsmall"
             color="primary-inverted"
             font="system"
             weight="semibold"
           >
-            Анализируйте тренды и улучшайте портфель с подпиской от Альфа-Инвестиции
+            Анализируйте рынок и улучшайте портфель
           </Typography.TitleResponsive>
         </div>
         <Typography.TitleResponsive tag="h3" view="small" font="system" weight="bold">
